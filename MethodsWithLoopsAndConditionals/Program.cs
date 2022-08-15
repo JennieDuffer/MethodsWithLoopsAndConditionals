@@ -9,10 +9,10 @@
 
 //Methods.EvenOdd(7);
 
-//Methods.NegPos(-5);
+//Methods.NegPos();
 
-//Methods.VoterAge(19);
+//Methods.VoterAge();
 
-//Methods.RangeOfTen(6);
+//Methods.RangeOfTen();
 
 Methods.MultiplicationTable();

@@ -37,46 +37,45 @@ namespace MethodsWithLoopsAndConditionals
 
         //}
 
-        //        public static void EvenOdd(int a)
-        //        {
-        //            if (a % 2 ==0 )
-        //            {
-        //                Console.WriteLine($"{a} is even");
-        //            }
-        //            else
-        //            {
-        //                Console.WriteLine($"{a} is odd");
-        //;           }
-        //        }
+        //public static void EvenOdd(int a)
+        //{
+        //    if (a % 2 == 0)
+        //    {
+        //        Console.WriteLine($"{a} is even");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"{a} is odd");
 
-        //public static void NegPos(int a)
+        //    }
+        //}
+
+        //public static void NegPos()
         //{
 
         //    Console.WriteLine("Pick a number: ");
-        //    a = int.Parse(Console.ReadLine());
+        //    var input = int.Parse(Console.ReadLine());
 
-        //    if (a == 0)
+        //    if (input == 0)
         //    {
-        //        Console.WriteLine("{a} is zero");
+        //        Console.WriteLine($"{input} is zero");
         //    }
-        //    else if (a > 0)
+        //    else if (input > 0)
         //    {
-        //        Console.WriteLine("{a} is positive");
+        //        Console.WriteLine($"{input} is positive");
         //    }
-        //    else 
+        //    else
         //    {
-        //        Console.WriteLine("{a} is negative");
+        //        Console.WriteLine($"{input} is negative");
         //    }
-           
-
         //}
 
-        //public static void VoterAge(int a)
+        //public static void VoterAge()
         //{
         //    Console.WriteLine("How old are you?");
-        //    a = int.Parse(Console.ReadLine());
+        //    var input = int.Parse(Console.ReadLine());
 
-        //    if (a >= 18)
+        //    if (input >= 18)
         //    {
         //        Console.WriteLine("Yes, you can vote!");
 
@@ -87,18 +86,18 @@ namespace MethodsWithLoopsAndConditionals
         //    }
         //}
 
-        //public static void RangeOfTen(int i)
+        //public static void RangeOfTen()
         //{
         //    Console.WriteLine("Pick a number between -10 and 10. ");
-        //    i = int.Parse(Console.ReadLine());
+        //    var input = int.Parse(Console.ReadLine());
 
 
-        //    if (i >= 0)
+        //    if (input <= 10 && input >= -10)
         //    {
         //        Console.WriteLine("your number is within range");
         //    }
         //    else
-            
+
         //    {
         //        Console.WriteLine("your number is not within range");
         //    }
